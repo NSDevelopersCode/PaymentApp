@@ -1,0 +1,4 @@
+#Sat Oct 05 18:50:23 PKT 2024
+base.0=/Users/Saqlain/Desktop/Payment App/payment_app/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

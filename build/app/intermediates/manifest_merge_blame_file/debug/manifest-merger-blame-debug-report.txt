@@ -1,0 +1,228 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.payment_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:5:4-65
+15-->/Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:5:21-63
+16    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+16-->/Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:2:4-73
+16-->/Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:2:21-70
+17    <uses-permission android:name="android.permission.BLUETOOTH" />
+17-->/Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:4:4-67
+17-->/Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:4:21-64
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:6:4-78
+18-->/Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:6:21-75
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->[:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+19-->[:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+20    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+20-->[:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:21:5-73
+20-->[:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:21:22-70
+21    <!--
+22         Needed only if your app makes the device discoverable to Bluetooth
+23         devices.
+24    -->
+25    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+25-->[:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:27:5-78
+25-->[:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:27:22-75
+26    <!--
+27         Needed only if your app communicates with already-paired Bluetooth
+28         devices.
+29    -->
+30    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+30-->[:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:33:5-76
+30-->[:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:33:22-73
+31    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+31-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:5-65
+31-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:22-62
+32    <uses-feature
+32-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:25:5-27:36
+33        android:name="android.hardware.camera"
+33-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:26:9-47
+34        android:required="false" />
+34-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:27:9-33
+35    <uses-feature
+35-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:28:5-30:36
+36        android:name="android.hardware.camera.front"
+36-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:29:9-53
+37        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+37-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:30:9-33
+38    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+39    <uses-feature
+39-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:33:5-35:36
+40        android:name="android.hardware.camera.autofocus"
+40-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:34:9-57
+41        android:required="false" />
+41-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:35:9-33
+42    <uses-feature
+42-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:36:5-38:36
+43        android:name="android.hardware.camera.flash"
+43-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:37:9-53
+44        android:required="false" />
+44-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:38:9-33
+45    <uses-feature
+45-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:39:5-41:36
+46        android:name="android.hardware.screen.landscape"
+46-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:40:9-57
+47        android:required="false" />
+47-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:41:9-33
+48    <uses-feature
+48-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:42:5-44:36
+49        android:name="android.hardware.wifi"
+49-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:43:9-45
+50        android:required="false" />
+50-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:44:9-33
+51
+52    <permission
+52-->[androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+53        android:name="com.example.payment_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+53-->[androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+54        android:protectionLevel="signature" />
+54-->[androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+55
+56    <uses-permission android:name="com.example.payment_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+56-->[androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+56-->[androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+57
+58    <application
+59        android:name="android.app.Application"
+60        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+60-->[androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+61        android:debuggable="true"
+62        android:icon="@mipmap/ic_launcher"
+63        android:label="payment_app" >
+64        <activity
+65            android:name="com.example.payment_app.MainActivity"
+66            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+67            android:exported="true"
+68            android:hardwareAccelerated="true"
+69            android:launchMode="singleTop"
+70            android:theme="@style/LaunchTheme"
+71            android:windowSoftInputMode="adjustResize" >
+72
+73            <!--
+74                 Specifies an Android theme to apply to this Activity as soon as
+75                 the Android process has started. This theme is visible to the user
+76                 while the Flutter UI initializes. After that, this theme continues
+77                 to determine the Window background behind the Flutter UI.
+78            -->
+79            <meta-data
+80                android:name="io.flutter.embedding.android.NormalTheme"
+81                android:resource="@style/NormalTheme" />
+82
+83            <intent-filter>
+84                <action android:name="android.intent.action.MAIN" />
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+87            </intent-filter>
+88        </activity>
+89        <!--
+90             Don't delete the meta-data below.
+91             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+92        -->
+93        <meta-data
+94            android:name="flutterEmbedding"
+95            android:value="2" />
+96        <!--
+97           Declares a provider which allows us to store files to share in
+98           '.../caches/share_plus' and grant the receiving action access
+99        -->
+100        <provider
+100-->[:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:20
+101            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+101-->[:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-77
+102            android:authorities="com.example.payment_app.flutter.share_provider"
+102-->[:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-74
+103            android:exported="false"
+103-->[:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+104            android:grantUriPermissions="true" >
+104-->[:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-47
+105            <meta-data
+105-->[:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:68
+106                android:name="android.support.FILE_PROVIDER_PATHS"
+106-->[:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-67
+107                android:resource="@xml/flutter_share_file_paths" />
+107-->[:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-65
+108        </provider>
+109        <!--
+110           This manifest declared broadcast receiver allows us to use an explicit
+111           Intent when creating a PendingItent to be informed of the user's choice
+112        -->
+113        <receiver
+113-->[:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-34:20
+114            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+114-->[:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-82
+115            android:exported="false" >
+115-->[:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-37
+116            <intent-filter>
+116-->[:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-33:29
+117                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+117-->[:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:32:17-65
+117-->[:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:32:25-62
+118            </intent-filter>
+119        </receiver>
+120
+121        <uses-library
+121-->[androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+122            android:name="androidx.window.extensions"
+122-->[androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+123            android:required="false" />
+123-->[androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+124        <uses-library
+124-->[androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+125            android:name="androidx.window.sidecar"
+125-->[androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+126            android:required="false" />
+126-->[androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+127
+128        <activity
+128-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:47:9-53:63
+129            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+129-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:48:13-74
+130            android:clearTaskOnLaunch="true"
+130-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
+131            android:screenOrientation="sensorLandscape"
+131-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:50:13-56
+132            android:stateNotNeeded="true"
+132-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
+133            android:theme="@style/zxing_CaptureTheme"
+133-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
+134            android:windowSoftInputMode="stateAlwaysHidden" />
+134-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
+135
+136        <provider
+136-->[androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+137            android:name="androidx.startup.InitializationProvider"
+137-->[androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+138            android:authorities="com.example.payment_app.androidx-startup"
+138-->[androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+139            android:exported="false" >
+139-->[androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+140            <meta-data
+140-->[androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+141                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+141-->[androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+142                android:value="androidx.startup" />
+142-->[androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+143            <meta-data
+143-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/Saqlain/.gradle/caches/transforms-3/7df59bfcbca677acf805d96094cd23fb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+144                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+144-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/Saqlain/.gradle/caches/transforms-3/7df59bfcbca677acf805d96094cd23fb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+145                android:value="androidx.startup" />
+145-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/Saqlain/.gradle/caches/transforms-3/7df59bfcbca677acf805d96094cd23fb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+146        </provider>
+147    </application>
+148
+149</manifest>

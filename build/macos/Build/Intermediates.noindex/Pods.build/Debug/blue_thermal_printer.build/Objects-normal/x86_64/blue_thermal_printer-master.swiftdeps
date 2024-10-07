@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "c1d4e12821ceabf59305d2e9844e7f548cc89107740ad50ba9cb9e08c9b314e8"
+build_start_time: [1727782424, 717026948]
+build_end_time: [1727782424, 796952009]
+inputs:
+  "/Users/Saqlain/.pub-cache/hosted/pub.dev/blue_thermal_printer-1.2.3/macos/Classes/SwiftBlueThermalPrinterPlugin.swift": !private [1714111242, 356668949]

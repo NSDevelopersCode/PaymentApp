@@ -1,0 +1,391 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:7:5-37:19
+MERGED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-35:19
+MERGED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-35:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:46:5-54:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Saqlain/.gradle/caches/transforms-3/7df59bfcbca677acf805d96094cd23fb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Saqlain/.gradle/caches/transforms-3/7df59bfcbca677acf805d96094cd23fb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/88315a57e3ed3eda5b28d2019a90d480/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/88315a57e3ed3eda5b28d2019a90d480/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Saqlain/.gradle/caches/transforms-3/444649bc57b4827a34aee16f83c290ab/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Saqlain/.gradle/caches/transforms-3/444649bc57b4827a34aee16f83c290ab/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:8:9-36
+	android:icon
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:10:9-43
+	android:name
+		INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:9:9-42
+manifest
+ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+MERGED from [:shared_preferences_android] /Users/Saqlain/Desktop/Payment App/payment_app/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-35:12
+MERGED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-37:12
+MERGED from [:path_provider_android] /Users/Saqlain/Desktop/Payment App/payment_app/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_credit_card] /Users/Saqlain/Desktop/Payment App/payment_app/build/flutter_credit_card/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/978180320ed1d29d66a82edc9d24751e/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/Saqlain/.gradle/caches/transforms-3/74249e3c03159b2dd12b8bc5a9866ce2/transformed/appcompat-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/Saqlain/.gradle/caches/transforms-3/3d937243ed413426a77e95a86aa9b43a/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:17:1-56:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/Saqlain/.gradle/caches/transforms-3/12332377062c6beb61e89c6190068c57/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/Saqlain/.gradle/caches/transforms-3/38c290fcd46ebd55667e46213b34a69e/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/Saqlain/.gradle/caches/transforms-3/a6b4569ffe9166dcdf42ff697a36a1a6/transformed/jetified-appcompat-resources-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/68c104127a4fa6e920dedabd97da7a07/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/45d83fb9afe88863ffc9e91f572f45cb/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2120491fa5e59cc24186d66a11f8603e/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/04774a2ea0584e9f0b81e457dda3223d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Saqlain/.gradle/caches/transforms-3/2d446ed12184839bb1d167f66a1bcfbc/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Saqlain/.gradle/caches/transforms-3/92d0e1880452edb4393ba950b0982dbc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/88bd4a63f29ac2794695694c88ae9457/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/fca92cc987e4bd94e931bb14ea7a86db/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Saqlain/.gradle/caches/transforms-3/7df59bfcbca677acf805d96094cd23fb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/88315a57e3ed3eda5b28d2019a90d480/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/0bbcc58a340c8e5315e1b5af2d73c9f1/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/90c01fa6e712210f052c4294f99a72d1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/Saqlain/.gradle/caches/transforms-3/153583b99c8f49e3be000431eab68397/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/Saqlain/.gradle/caches/transforms-3/062cf64c13ceb3a1a30aa39a3853a482/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/Saqlain/.gradle/caches/transforms-3/ef99e9315760da6849448817d23df3eb/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Saqlain/.gradle/caches/transforms-3/444649bc57b4827a34aee16f83c290ab/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Saqlain/.gradle/caches/transforms-3/f8aa052827bfb2eef36c5ebbee938a93/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/Saqlain/.gradle/caches/transforms-3/0247dd21b98ed9163819d9242fdadd3a/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/Saqlain/.gradle/caches/transforms-3/f30636acbecdb2759396387c9b30620a/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Saqlain/.gradle/caches/transforms-3/e1bb7dc37f4518aee78f55a74993ada1/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/a9002f2b9bd12eaf33aa0eef693111b4/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/Saqlain/.gradle/caches/transforms-3/9916c0031c0bf84af67bab9d951a13f5/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+	package
+		INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:2:4-73
+MERGED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-74
+MERGED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:2:21-70
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:4:4-67
+MERGED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-68
+MERGED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:4:21-64
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:5:4-65
+	android:name
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:5:21-63
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:6:4-78
+MERGED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:20:5-79
+MERGED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:6:21-75
+uses-sdk
+INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /Users/Saqlain/Desktop/Payment App/payment_app/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/Saqlain/Desktop/Payment App/payment_app/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/Saqlain/Desktop/Payment App/payment_app/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/Saqlain/Desktop/Payment App/payment_app/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_credit_card] /Users/Saqlain/Desktop/Payment App/payment_app/build/flutter_credit_card/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_credit_card] /Users/Saqlain/Desktop/Payment App/payment_app/build/flutter_credit_card/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/978180320ed1d29d66a82edc9d24751e/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/978180320ed1d29d66a82edc9d24751e/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/Saqlain/.gradle/caches/transforms-3/74249e3c03159b2dd12b8bc5a9866ce2/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/Saqlain/.gradle/caches/transforms-3/74249e3c03159b2dd12b8bc5a9866ce2/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/Saqlain/.gradle/caches/transforms-3/3d937243ed413426a77e95a86aa9b43a/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/Saqlain/.gradle/caches/transforms-3/3d937243ed413426a77e95a86aa9b43a/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/Saqlain/.gradle/caches/transforms-3/12332377062c6beb61e89c6190068c57/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/Saqlain/.gradle/caches/transforms-3/12332377062c6beb61e89c6190068c57/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/Saqlain/.gradle/caches/transforms-3/38c290fcd46ebd55667e46213b34a69e/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/Saqlain/.gradle/caches/transforms-3/38c290fcd46ebd55667e46213b34a69e/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/Saqlain/.gradle/caches/transforms-3/a6b4569ffe9166dcdf42ff697a36a1a6/transformed/jetified-appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/Saqlain/.gradle/caches/transforms-3/a6b4569ffe9166dcdf42ff697a36a1a6/transformed/jetified-appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/68c104127a4fa6e920dedabd97da7a07/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/68c104127a4fa6e920dedabd97da7a07/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/45d83fb9afe88863ffc9e91f572f45cb/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/45d83fb9afe88863ffc9e91f572f45cb/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2120491fa5e59cc24186d66a11f8603e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2120491fa5e59cc24186d66a11f8603e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/04774a2ea0584e9f0b81e457dda3223d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/04774a2ea0584e9f0b81e457dda3223d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Saqlain/.gradle/caches/transforms-3/2d446ed12184839bb1d167f66a1bcfbc/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Saqlain/.gradle/caches/transforms-3/2d446ed12184839bb1d167f66a1bcfbc/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Saqlain/.gradle/caches/transforms-3/92d0e1880452edb4393ba950b0982dbc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Saqlain/.gradle/caches/transforms-3/92d0e1880452edb4393ba950b0982dbc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/88bd4a63f29ac2794695694c88ae9457/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/88bd4a63f29ac2794695694c88ae9457/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/fca92cc987e4bd94e931bb14ea7a86db/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/fca92cc987e4bd94e931bb14ea7a86db/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Saqlain/.gradle/caches/transforms-3/7df59bfcbca677acf805d96094cd23fb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Saqlain/.gradle/caches/transforms-3/7df59bfcbca677acf805d96094cd23fb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/88315a57e3ed3eda5b28d2019a90d480/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/88315a57e3ed3eda5b28d2019a90d480/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/0bbcc58a340c8e5315e1b5af2d73c9f1/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/0bbcc58a340c8e5315e1b5af2d73c9f1/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/90c01fa6e712210f052c4294f99a72d1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/90c01fa6e712210f052c4294f99a72d1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/Saqlain/.gradle/caches/transforms-3/153583b99c8f49e3be000431eab68397/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/Saqlain/.gradle/caches/transforms-3/153583b99c8f49e3be000431eab68397/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/Saqlain/.gradle/caches/transforms-3/062cf64c13ceb3a1a30aa39a3853a482/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/Saqlain/.gradle/caches/transforms-3/062cf64c13ceb3a1a30aa39a3853a482/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/Saqlain/.gradle/caches/transforms-3/ef99e9315760da6849448817d23df3eb/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/Saqlain/.gradle/caches/transforms-3/ef99e9315760da6849448817d23df3eb/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Saqlain/.gradle/caches/transforms-3/444649bc57b4827a34aee16f83c290ab/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Saqlain/.gradle/caches/transforms-3/444649bc57b4827a34aee16f83c290ab/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Saqlain/.gradle/caches/transforms-3/f8aa052827bfb2eef36c5ebbee938a93/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Saqlain/.gradle/caches/transforms-3/f8aa052827bfb2eef36c5ebbee938a93/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/Saqlain/.gradle/caches/transforms-3/0247dd21b98ed9163819d9242fdadd3a/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/Saqlain/.gradle/caches/transforms-3/0247dd21b98ed9163819d9242fdadd3a/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/Saqlain/.gradle/caches/transforms-3/f30636acbecdb2759396387c9b30620a/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/Saqlain/.gradle/caches/transforms-3/f30636acbecdb2759396387c9b30620a/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Saqlain/.gradle/caches/transforms-3/e1bb7dc37f4518aee78f55a74993ada1/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Saqlain/.gradle/caches/transforms-3/e1bb7dc37f4518aee78f55a74993ada1/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/a9002f2b9bd12eaf33aa0eef693111b4/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/a9002f2b9bd12eaf33aa0eef693111b4/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/Saqlain/.gradle/caches/transforms-3/9916c0031c0bf84af67bab9d951a13f5/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/Saqlain/.gradle/caches/transforms-3/9916c0031c0bf84af67bab9d951a13f5/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml
+activity#com.example.payment_app.MainActivity
+ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:11:9-31:20
+	android:launchMode
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:14:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:17:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:18:13-55
+	android:exported
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:13:13-36
+	android:configChanges
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:16:13-163
+	android:theme
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:15:13-47
+	android:name
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:12:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:23:13-26:17
+	android:resource
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:25:15-52
+	android:name
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:24:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:29:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:34:9-36:33
+	android:value
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:36:13-30
+	android:name
+		ADDED from /Users/Saqlain/Desktop/Payment App/payment_app/android/app/src/main/AndroidManifest.xml:35:13-44
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:21:5-73
+	android:name
+		ADDED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:21:22-70
+uses-permission#android.permission.BLUETOOTH_ADVERTISE
+ADDED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:27:22-75
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:33:5-76
+	android:name
+		ADDED from [:blue_thermal_printer] /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:33:22-73
+provider#dev.fluttercommunity.plus.share.ShareFileProvider
+ADDED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:20
+	android:grantUriPermissions
+		ADDED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-47
+	android:authorities
+		ADDED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-74
+	android:exported
+		ADDED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-77
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:68
+	android:resource
+		ADDED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-65
+	android:name
+		ADDED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-67
+receiver#dev.fluttercommunity.plus.share.SharePlusPendingIntent
+ADDED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-34:20
+	android:exported
+		ADDED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-82
+intent-filter#action:name:EXTRA_CHOSEN_COMPONENT
+ADDED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-33:29
+action#EXTRA_CHOSEN_COMPONENT
+ADDED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-65
+	android:name
+		ADDED from [:share_plus] /Users/Saqlain/Desktop/Payment App/payment_app/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:32:25-62
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/Saqlain/.gradle/caches/transforms-3/29fe38a5fd6c3bf46cd8e59c2b63489e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:26:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:48:13-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Saqlain/.gradle/caches/transforms-3/7df59bfcbca677acf805d96094cd23fb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Saqlain/.gradle/caches/transforms-3/7df59bfcbca677acf805d96094cd23fb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/88315a57e3ed3eda5b28d2019a90d480/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/88315a57e3ed3eda5b28d2019a90d480/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Saqlain/.gradle/caches/transforms-3/2730357b1d3ac54850881c8464a8aedb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+permission#com.example.payment_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.payment_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/Saqlain/.gradle/caches/transforms-3/0235b77ff31bafac24f24ba4755d72b8/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Saqlain/.gradle/caches/transforms-3/7df59bfcbca677acf805d96094cd23fb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Saqlain/.gradle/caches/transforms-3/7df59bfcbca677acf805d96094cd23fb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Saqlain/.gradle/caches/transforms-3/7df59bfcbca677acf805d96094cd23fb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
