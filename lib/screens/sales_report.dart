@@ -111,7 +111,7 @@ class _SalesRportState extends State<SalesRport> {
                 Padding(
                   padding: const EdgeInsets.only(right: 100),
                   child: CustomDropdownFieldAgain(
-                    title: 'Select Product ID',
+                    title: 'Select Product',
                     value: productName,
                     items: widget.names,
                     onChanged: (value) {
