@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
-options: "594c650d8de7958d5c876285e1fbe50f139909f084034044d4a3dfb96663b77b"
-build_start_time: [1727782424, 717026948]
-build_end_time: [1727782424, 791224002]
-inputs:
-  "/Users/Saqlain/.pub-cache/hosted/pub.dev/share_plus-7.2.2/macos/Classes/SharePlusMacosPlugin.swift": !private [1726034713, 12367725]

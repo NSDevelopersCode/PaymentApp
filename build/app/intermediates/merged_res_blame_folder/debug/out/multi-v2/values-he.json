@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.payment_app-mergeDebugResources-21:/values-he/values-he.xml",
+            "outputFile": "com.example.payment_app-mergeDebugResources-32:/values-he/values-he.xml",
             "map": [
                 {
-                    "source": "/Users/Saqlain/.gradle/caches/transforms-3/c8f13e6ed1f08effe957a9786a03636b/transformed/jetified-zxing-android-embedded-3.6.0/res/values-he/values-he.xml",
+                    "source": "/Users/Saqlain/.gradle/caches/transforms-3/6febd2a1577075c524dda3194dcda0a3/transformed/jetified-zxing-android-embedded-3.6.0/res/values-he/values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

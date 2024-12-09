@@ -1,9 +1,0 @@
-version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
-options: "23e98355f11ad81075f652a09f8aec9328616371d9c5508837c8da650be2f752"
-build_start_time: [1727782424, 717025041]
-build_end_time: [1727782440, 390573024]
-inputs:
-  ? "/Users/Saqlain/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.0/darwin/path_provider_foundation/Sources/path_provider_foundation/PathProviderPlugin.swift"
-  : [1724220518, 944055557]
-  ? "/Users/Saqlain/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.0/darwin/path_provider_foundation/Sources/path_provider_foundation/messages.g.swift"
-  : [1724220518, 965803623]

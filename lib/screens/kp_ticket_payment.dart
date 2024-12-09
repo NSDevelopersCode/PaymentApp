@@ -228,7 +228,7 @@ class _KPTicketPaymentState extends State<KPTicketPayment> {
                                                               Text(
                                                                   'TO Name : ${context.read<TicketPaymentController>().feedBackModel!.output!.toName!}'),
                                                               Text(
-                                                                  'Ticket No # : ${context.read<TicketPaymentController>().feedBackModel!.output!.ticketId.toString()}'),
+                                                                  'Ticket No # : ${context.read<TicketPaymentController>().feedBackModel!.output!.ticketNo.toString()}'),
                                                               Text(
                                                                   'Offender : ${context.read<TicketPaymentController>().feedBackModel!.output!.offenderName.toString()}'),
                                                               Text(
@@ -322,7 +322,7 @@ class _KPTicketPaymentState extends State<KPTicketPayment> {
                                                                         0);
                                                                 await printer
                                                                     .printCustom(
-                                                                        'Total Amount : ${context.read<TicketPaymentController>().feedBackModel!.output!.ticketAmount.toString()}',
+                                                                        'Total Amount : ${context.read<TicketPaymentController>().feedBackModel!.output!.toString()}',
                                                                         1,
                                                                         0);
                                                                 await printer
