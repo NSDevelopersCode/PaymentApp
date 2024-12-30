@@ -7,6 +7,7 @@ class CustomButton extends StatelessWidget {
     required this.text,
     this.disabledColor,
     this.enabledColor,
+    this.textColor,
     super.key,
   });
   final void Function()? onTap;
@@ -14,6 +15,7 @@ class CustomButton extends StatelessWidget {
   final String text;
   final Color? enabledColor;
   final Color? disabledColor;
+  final Color? textColor;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -37,7 +39,11 @@ class CustomButton extends StatelessWidget {
                   )
                 : Text(
                     text,
-                    style: const TextStyle(color: Colors.white, fontSize: 16),
+                    style: TextStyle(
+                        color: textColor != null
+                            ? Theme.of(context).colorScheme.primary
+                            : Colors.white,
+                        fontSize: 16),
                   )),
       ),
     );

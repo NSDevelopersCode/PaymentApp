@@ -191,211 +191,234 @@ class _KPTicketPaymentState extends State<KPTicketPayment> {
                                             Column(
                                               mainAxisSize: MainAxisSize.min,
                                               children: [
-                                                Screenshot(
-                                                  controller: controller,
-                                                  child: AlertDialog(
-                                                    title: Center(
-                                                      child: Image.asset(
-                                                        'assets/images/checked.png',
-                                                        height: 80,
-                                                      ),
+                                                AlertDialog(
+                                                  title: Center(
+                                                    child: Image.asset(
+                                                      'assets/images/checked.png',
+                                                      height: 80,
                                                     ),
-                                                    content: Center(
-                                                      child: Column(
-                                                        children: [
-                                                          const Text(
-                                                            'Successfully Paid',
-                                                            style: TextStyle(
-                                                                fontSize: 16,
-                                                                fontWeight:
-                                                                    FontWeight
-                                                                        .bold),
+                                                  ),
+                                                  content: Center(
+                                                    child: Column(
+                                                      children: [
+                                                        Screenshot(
+                                                          controller:
+                                                              controller,
+                                                          child: Container(
+                                                            color: Colors
+                                                                .white, // Set your desired background color
+                                                            padding:
+                                                                const EdgeInsets
+                                                                    .all(
+                                                                    16.0), // Option
+                                                            child: Column(
+                                                              children: [
+                                                                const Text(
+                                                                  'Successfully Paid',
+                                                                  style: TextStyle(
+                                                                      fontSize:
+                                                                          16,
+                                                                      fontWeight:
+                                                                          FontWeight
+                                                                              .bold),
+                                                                ),
+                                                                const SizedBox(
+                                                                  height: 5,
+                                                                ),
+                                                                Column(
+                                                                  crossAxisAlignment:
+                                                                      CrossAxisAlignment
+                                                                          .start,
+                                                                  children: [
+                                                                    Text(
+                                                                        'Issuance Date : $formattedGenerateDate'),
+                                                                    Text(
+                                                                        'Paid Date : $formattedPaidDate'),
+                                                                    Text(
+                                                                        'Merchant : ${context.read<TicketPaymentController>().feedBackModel!.output!.merchantName!}'),
+                                                                    Text(
+                                                                        'TO Name : ${context.read<TicketPaymentController>().feedBackModel!.output!.toName!}'),
+                                                                    Text(
+                                                                        'Ticket No # : ${context.read<TicketPaymentController>().feedBackModel!.output!.ticketNo.toString()}'),
+                                                                    Text(
+                                                                        'Offender : ${context.read<TicketPaymentController>().feedBackModel!.output!.offenderName.toString()}'),
+                                                                    Text(
+                                                                        'Total Amount : ${context.read<TicketPaymentController>().feedBackModel!.output!.totalAmount.toString()}'),
+                                                                  ],
+                                                                ),
+                                                                const Text(
+                                                                  'Status : Paid',
+                                                                  style: TextStyle(
+                                                                      fontSize:
+                                                                          16,
+                                                                      fontWeight:
+                                                                          FontWeight
+                                                                              .bold),
+                                                                ),
+                                                              ],
+                                                            ),
                                                           ),
-                                                          const SizedBox(
-                                                            height: 5,
-                                                          ),
-                                                          Column(
-                                                            crossAxisAlignment:
-                                                                CrossAxisAlignment
-                                                                    .start,
-                                                            children: [
-                                                              Text(
-                                                                  'Issuance Date : $formattedGenerateDate'),
-                                                              Text(
-                                                                  'Transaction Date : $formattedPaidDate'),
-                                                              Text(
-                                                                  'Merchant : ${context.read<TicketPaymentController>().feedBackModel!.output!.merchantName!}'),
-                                                              Text(
-                                                                  'TO Name : ${context.read<TicketPaymentController>().feedBackModel!.output!.toName!}'),
-                                                              Text(
-                                                                  'Ticket No # : ${context.read<TicketPaymentController>().feedBackModel!.output!.ticketNo.toString()}'),
-                                                              Text(
-                                                                  'Offender : ${context.read<TicketPaymentController>().feedBackModel!.output!.offenderName.toString()}'),
-                                                              Text(
-                                                                  'Total Amount : ${context.read<TicketPaymentController>().feedBackModel!.output!.ticketAmount.toString()}'),
-                                                            ],
-                                                          ),
-                                                          const Text(
-                                                            'Status : Paid',
-                                                            style: TextStyle(
-                                                                fontSize: 16,
-                                                                fontWeight:
-                                                                    FontWeight
-                                                                        .bold),
-                                                          ),
-                                                          const SizedBox(
-                                                            height: 10,
-                                                          ),
-                                                          CustomButton(
-                                                            isloading:
-                                                                isloading3,
-                                                            onTap: () async {
+                                                        ),
+                                                        const SizedBox(
+                                                          height: 10,
+                                                        ),
+                                                        CustomButton(
+                                                          enabledColor:
+                                                              Theme.of(context)
+                                                                  .colorScheme
+                                                                  .primary,
+                                                          // textColor: Theme.of(
+                                                          //         context)
+                                                          //     .colorScheme
+                                                          //     .primary,
+                                                          isloading: isloading3,
+                                                          onTap: () async {
+                                                            setState(() {
+                                                              isloading3 = true;
+                                                            });
+                                                            if (selectedDevice !=
+                                                                null) {
+                                                              if (!(await printer
+                                                                  .isConnected)!) {
+                                                                await printer
+                                                                    .connect(
+                                                                        selectedDevice!);
+                                                              }
+                                                            }
+                                                            // }
+
+                                                            const SizedBox(
+                                                              height: 10,
+                                                            );
+
+                                                            if ((await printer
+                                                                .isConnected)!) {
+                                                              print(
+                                                                  'connected');
                                                               setState(() {
                                                                 isloading3 =
-                                                                    true;
+                                                                    false;
                                                               });
-                                                              if (selectedDevice !=
-                                                                  null) {
-                                                                if (!(await printer
-                                                                    .isConnected)!) {
-                                                                  await printer
-                                                                      .connect(
-                                                                          selectedDevice!);
+
+                                                              printer
+                                                                  .printNewLine();
+
+                                                              await printer
+                                                                  .printCustom(
+                                                                      'Ticket Slip',
+                                                                      4,
+                                                                      1);
+
+                                                              await printer
+                                                                  .printCustom(
+                                                                      'Issuance Date:$formattedGenerateDate',
+                                                                      1,
+                                                                      1);
+
+                                                              await printer
+                                                                  .printCustom(
+                                                                      'Paid Date: $formattedPaidDate',
+                                                                      1,
+                                                                      0);
+                                                              await printer
+                                                                  .printCustom(
+                                                                      'Merchant : ${context.read<TicketPaymentController>().feedBackModel!.output!.merchantName.toString()}',
+                                                                      1,
+                                                                      0);
+                                                              await printer
+                                                                  .printCustom(
+                                                                      'TO Name: ${context.read<TicketPaymentController>().feedBackModel!.output!.toName.toString()}',
+                                                                      1,
+                                                                      0);
+
+                                                              await printer
+                                                                  .printCustom(
+                                                                      'Ticket No# : ${context.read<TicketPaymentController>().feedBackModel!.output!.ticketNo.toString()}',
+                                                                      1,
+                                                                      0);
+
+                                                              await printer
+                                                                  .printCustom(
+                                                                      'Offender : ${context.read<TicketPaymentController>().feedBackModel!.output!.offenderName.toString()}',
+                                                                      1,
+                                                                      0);
+                                                              await printer
+                                                                  .printCustom(
+                                                                      'Total Amount : ${context.read<TicketPaymentController>().feedBackModel!.output!.totalAmount.toString()}',
+                                                                      1,
+                                                                      0);
+                                                              await printer
+                                                                  .printCustom(
+                                                                      'Status : Paid',
+                                                                      1,
+                                                                      0);
+                                                              // printer.printQRcode('textToQR', 200, 200, 1);
+                                                              printer
+                                                                  .printNewLine();
+                                                              printer
+                                                                  .printNewLine();
+                                                            } else {
+                                                              setState(() {
+                                                                isloading3 =
+                                                                    false;
+                                                              });
+                                                              ScaffoldMessenger
+                                                                      .of(
+                                                                          context)
+                                                                  .showSnackBar(
+                                                                      const SnackBar(
+                                                                          content:
+                                                                              Text('bluetooth Device Not Connect')));
+                                                            }
+                                                          },
+                                                          text: 'Print ?',
+                                                        ),
+                                                        const SizedBox(
+                                                          height: 5,
+                                                        ),
+                                                        BorderButton(
+                                                            onTap: () async {
+                                                              try {
+                                                                final image =
+                                                                    await controller
+                                                                        .capture();
+                                                                if (image !=
+                                                                    null) {
+                                                                  log('Image captured successfully');
+                                                                  Share
+                                                                      .shareXFiles(
+                                                                    [
+                                                                      XFile.fromData(
+                                                                          image,
+                                                                          mimeType:
+                                                                              'image/png'),
+                                                                    ],
+                                                                  );
+                                                                } else {
+                                                                  log('Failed to capture image');
                                                                 }
-                                                              }
-                                                              // }
-
-                                                              const SizedBox(
-                                                                height: 10,
-                                                              );
-
-                                                              if ((await printer
-                                                                  .isConnected)!) {
-                                                                print(
-                                                                    'connected');
-                                                                setState(() {
-                                                                  isloading3 =
-                                                                      false;
-                                                                });
-
-                                                                printer
-                                                                    .printNewLine();
-
-                                                                await printer
-                                                                    .printCustom(
-                                                                        'Ticket Slip',
-                                                                        4,
-                                                                        1);
-
-                                                                await printer
-                                                                    .printCustom(
-                                                                        'Issuance Date:$formattedGenerateDate',
-                                                                        1,
-                                                                        1);
-
-                                                                await printer
-                                                                    .printCustom(
-                                                                        'Paid Date: $formattedPaidDate',
-                                                                        1,
-                                                                        0);
-                                                                await printer
-                                                                    .printCustom(
-                                                                        'Merchant : ${context.read<TicketPaymentController>().feedBackModel!.output!.merchantName.toString()}',
-                                                                        1,
-                                                                        0);
-                                                                await printer
-                                                                    .printCustom(
-                                                                        'TO Name: ${context.read<TicketPaymentController>().feedBackModel!.output!.toName.toString()}',
-                                                                        1,
-                                                                        0);
-
-                                                                await printer
-                                                                    .printCustom(
-                                                                        'Slip No# : ${context.read<TicketPaymentController>().feedBackModel!.output!.ticketId.toString()}',
-                                                                        1,
-                                                                        0);
-
-                                                                await printer
-                                                                    .printCustom(
-                                                                        'Offender : ${context.read<TicketPaymentController>().feedBackModel!.output!.offenderName.toString()}',
-                                                                        1,
-                                                                        0);
-                                                                await printer
-                                                                    .printCustom(
-                                                                        'Total Amount : ${context.read<TicketPaymentController>().feedBackModel!.output!.toString()}',
-                                                                        1,
-                                                                        0);
-                                                                await printer
-                                                                    .printCustom(
-                                                                        'Status : Paid',
-                                                                        1,
-                                                                        0);
-                                                                // printer.printQRcode('textToQR', 200, 200, 1);
-                                                                printer
-                                                                    .printNewLine();
-                                                                printer
-                                                                    .printNewLine();
-                                                              } else {
-                                                                setState(() {
-                                                                  isloading3 =
-                                                                      false;
-                                                                });
-                                                                ScaffoldMessenger.of(
-                                                                        context)
-                                                                    .showSnackBar(const SnackBar(
-                                                                        content:
-                                                                            Text('bluetooth Device Not Connect')));
+                                                              } catch (e) {
+                                                                log('Error during capture: $e');
                                                               }
                                                             },
-                                                            text: 'Print ?',
-                                                          ),
-                                                          const SizedBox(
-                                                            height: 5,
-                                                          ),
-                                                          BorderButton(
-                                                              onTap: () async {
-                                                                try {
-                                                                  final image =
-                                                                      await controller
-                                                                          .capture();
-                                                                  if (image !=
-                                                                      null) {
-                                                                    log('Image captured successfully');
-                                                                    Share
-                                                                        .shareXFiles(
-                                                                      [
-                                                                        XFile.fromData(
-                                                                            image,
-                                                                            mimeType:
-                                                                                'image/png'),
-                                                                      ],
-                                                                    );
-                                                                  } else {
-                                                                    log('Failed to capture image');
-                                                                  }
-                                                                } catch (e) {
-                                                                  log('Error during capture: $e');
-                                                                }
-                                                              },
-                                                              isloading: false,
-                                                              text: 'Share')
-                                                        ],
-                                                      ),
+                                                            isloading: false,
+                                                            text: 'Share')
+                                                      ],
                                                     ),
-                                                    // content: Text(
-                                                    //   context
-                                                    //       .read<TicketPrintController>()
-                                                    //       .feedBackModel!
-                                                    //       .output!
-                                                    //       .toJson()
-                                                    //       .toString(),
-                                                    // ),
-                                                    // title: Text(context
-                                                    //     .read<TicketPaymentController>()
-                                                    //     .feedBackModel!
-                                                    //     .output!
-                                                    //     .toString())
                                                   ),
+                                                  // content: Text(
+                                                  //   context
+                                                  //       .read<TicketPrintController>()
+                                                  //       .feedBackModel!
+                                                  //       .output!
+                                                  //       .toJson()
+                                                  //       .toString(),
+                                                  // ),
+                                                  // title: Text(context
+                                                  //     .read<TicketPaymentController>()
+                                                  //     .feedBackModel!
+                                                  //     .output!
+                                                  //     .toString())
                                                 ),
                                               ],
                                             ),
@@ -532,10 +555,10 @@ class _KPTicketPaymentState extends State<KPTicketPayment> {
                                   await printer.printCustom(
                                       'Issuance Date:$formattedGenerateDate',
                                       1,
-                                      1);
+                                      0);
 
                                   await printer.printCustom(
-                                      'Paid Date:$formattedPaidDate', 1, 1);
+                                      'Paid Date:$formattedPaidDate', 1, 0);
                                   await printer.printCustom(
                                       'MerchantName: ${context.read<TicketPrintController>().feedBackModel!.output!.merchantName.toString()}',
                                       1,
@@ -550,13 +573,10 @@ class _KPTicketPaymentState extends State<KPTicketPayment> {
                                       0);
 
                                   await printer.printCustom(
-                                      'TicketAmount: ${context.read<TicketPrintController>().feedBackModel!.output!.ticketAmount.toString()}',
+                                      'TotalAmount: ${context.read<TicketPrintController>().feedBackModel!.output!.totalAmount.toString()}',
                                       1,
                                       0);
-                                  await printer.printCustom(
-                                      'ServiceCharges: ${context.read<TicketPrintController>().feedBackModel!.output!.serviceCharges.toString()}',
-                                      1,
-                                      0);
+
                                   await printer.printCustom(
                                       'Status : Paid', 1, 0);
                                   // await printer

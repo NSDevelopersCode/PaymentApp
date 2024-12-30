@@ -510,11 +510,11 @@ class _LedgerReportState extends State<LedgerReport> {
                                       final formatEntryDate =
                                           DateFormat('dd-MMM-yy')
                                               .format(entryDate);
-                                      final myDate = e.particulars!.isNotEmpty
+                                      final myDate = e.particulars == 'Opening'
                                           ? '              '
                                           : formatEntryDate;
                                       final displayAmount =
-                                          e.particulars!.isNotEmpty
+                                          e.particulars == 'Opening'
                                               ? "Opening"
                                               : e.amount!.toString();
                                       isFirst = false;

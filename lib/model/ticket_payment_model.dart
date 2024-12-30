@@ -76,6 +76,7 @@ class TicketOutputModel {
   int? loginId;
   int? ticketAmount;
   double? serviceCharges;
+  double? totalAmount;
   String? merchantName;
   double? merchantBalance;
 
@@ -108,6 +109,7 @@ class TicketOutputModel {
     this.violationCodes,
     this.merchantName,
     this.merchantBalance,
+    this.totalAmount,
 
     // Add other fields as needed
   });
@@ -134,6 +136,7 @@ class TicketOutputModel {
       loginId: json['Log_ID'],
       ticketAmount: json['TicketAmount'],
       serviceCharges: json['ServiceCharges'],
+      totalAmount: json['TotalAmount'],
       activityDateTime: json['ActivityDateTime'],
       transactionTime: json['TransactionDateTime'],
       toName: json['TOName'],
@@ -166,6 +169,7 @@ class TicketOutputModel {
     data['Log_ID'] = loginId;
     data['TicketAmount'] = ticketAmount;
     data['ServiceCharges'] = serviceCharges;
+    data['TotalAmount'] = totalAmount;
     data['ActivityDateTime'] = activityDateTime;
     data['TransactionDateTime'] = transactionTime;
     data['TOName'] = toName;

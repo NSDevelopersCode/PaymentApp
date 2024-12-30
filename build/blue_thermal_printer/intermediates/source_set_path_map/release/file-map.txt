@@ -1,0 +1,33 @@
+id.kakzaki.blue_thermal_printer-jetified-activity-1.8.1-0 /Users/Saqlain/.gradle/caches/transforms-3/0b873d82c2231ea2845c8f6b1288179a/transformed/jetified-activity-1.8.1/res
+id.kakzaki.blue_thermal_printer-jetified-emoji2-views-helper-1.0.0-1 /Users/Saqlain/.gradle/caches/transforms-3/26695c4cad42ebec214728a3ada5876c/transformed/jetified-emoji2-views-helper-1.0.0/res
+id.kakzaki.blue_thermal_printer-core-runtime-2.2.0-2 /Users/Saqlain/.gradle/caches/transforms-3/4abfb14423eab8b58a348c08c4a2b0d2/transformed/core-runtime-2.2.0/res
+id.kakzaki.blue_thermal_printer-lifecycle-viewmodel-2.7.0-3 /Users/Saqlain/.gradle/caches/transforms-3/53e5082e3f9fdccc9f2e8388f2a87ea4/transformed/lifecycle-viewmodel-2.7.0/res
+id.kakzaki.blue_thermal_printer-jetified-window-java-1.2.0-4 /Users/Saqlain/.gradle/caches/transforms-3/55d814a1576734ac880dca6a01e1ced3/transformed/jetified-window-java-1.2.0/res
+id.kakzaki.blue_thermal_printer-jetified-window-1.2.0-5 /Users/Saqlain/.gradle/caches/transforms-3/5ab9d1d95ba89b6c435c79a8ef4bb375/transformed/jetified-window-1.2.0/res
+id.kakzaki.blue_thermal_printer-fragment-1.7.1-6 /Users/Saqlain/.gradle/caches/transforms-3/60844366ea525d13fb1a11c2396bc3b3/transformed/fragment-1.7.1/res
+id.kakzaki.blue_thermal_printer-appcompat-1.4.2-7 /Users/Saqlain/.gradle/caches/transforms-3/6cdf8c63972596173b31ee693d079e0b/transformed/appcompat-1.4.2/res
+id.kakzaki.blue_thermal_printer-jetified-zxing-android-embedded-3.6.0-8 /Users/Saqlain/.gradle/caches/transforms-3/6febd2a1577075c524dda3194dcda0a3/transformed/jetified-zxing-android-embedded-3.6.0/res
+id.kakzaki.blue_thermal_printer-core-1.13.1-9 /Users/Saqlain/.gradle/caches/transforms-3/7b9cc716733896fdb33be34a758f3226/transformed/core-1.13.1/res
+id.kakzaki.blue_thermal_printer-jetified-savedstate-1.2.1-10 /Users/Saqlain/.gradle/caches/transforms-3/7b9eabbb4830e24e0297ed494c592500/transformed/jetified-savedstate-1.2.1/res
+id.kakzaki.blue_thermal_printer-jetified-core-1.0.0-11 /Users/Saqlain/.gradle/caches/transforms-3/89a9d9d57cbd452d47af537aeb6acace/transformed/jetified-core-1.0.0/res
+id.kakzaki.blue_thermal_printer-jetified-profileinstaller-1.3.1-12 /Users/Saqlain/.gradle/caches/transforms-3/8a3ff53f3181b8bfec731869565d7551/transformed/jetified-profileinstaller-1.3.1/res
+id.kakzaki.blue_thermal_printer-lifecycle-runtime-2.7.0-13 /Users/Saqlain/.gradle/caches/transforms-3/8b8015088b2c08b7ad07b06ff4793fb7/transformed/lifecycle-runtime-2.7.0/res
+id.kakzaki.blue_thermal_printer-jetified-core-ktx-1.13.1-14 /Users/Saqlain/.gradle/caches/transforms-3/8f4c693ea9f357397f7dade6a8d12b85/transformed/jetified-core-ktx-1.13.1/res
+id.kakzaki.blue_thermal_printer-jetified-annotation-experimental-1.4.0-15 /Users/Saqlain/.gradle/caches/transforms-3/942f06b8ad5f3469fb6fc23e6f053f70/transformed/jetified-annotation-experimental-1.4.0/res
+id.kakzaki.blue_thermal_printer-jetified-lifecycle-livedata-core-ktx-2.7.0-16 /Users/Saqlain/.gradle/caches/transforms-3/97c5658d761da2daf3d8730874d46c5d/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/res
+id.kakzaki.blue_thermal_printer-jetified-startup-runtime-1.1.1-17 /Users/Saqlain/.gradle/caches/transforms-3/9f7d43b6087acb17ad84fa3dfa8d58b4/transformed/jetified-startup-runtime-1.1.1/res
+id.kakzaki.blue_thermal_printer-jetified-lifecycle-viewmodel-savedstate-2.7.0-18 /Users/Saqlain/.gradle/caches/transforms-3/bea0671078170bf928699b787da27711/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/res
+id.kakzaki.blue_thermal_printer-jetified-appcompat-resources-1.4.2-19 /Users/Saqlain/.gradle/caches/transforms-3/c092cda9f8f02b99397bfe7b74d19225/transformed/jetified-appcompat-resources-1.4.2/res
+id.kakzaki.blue_thermal_printer-lifecycle-livedata-core-2.7.0-20 /Users/Saqlain/.gradle/caches/transforms-3/c1fde2040a24ca66ac00d364336a7009/transformed/lifecycle-livedata-core-2.7.0/res
+id.kakzaki.blue_thermal_printer-jetified-lifecycle-process-2.7.0-21 /Users/Saqlain/.gradle/caches/transforms-3/c314bda16b29ffcabb14b4b56664b376/transformed/jetified-lifecycle-process-2.7.0/res
+id.kakzaki.blue_thermal_printer-jetified-emoji2-1.0.0-22 /Users/Saqlain/.gradle/caches/transforms-3/c8d92d56f68a729397e3c0ec6b93cb46/transformed/jetified-emoji2-1.0.0/res
+id.kakzaki.blue_thermal_printer-lifecycle-livedata-2.7.0-23 /Users/Saqlain/.gradle/caches/transforms-3/cdf507c0d95e86e37c743abfbfafa376/transformed/lifecycle-livedata-2.7.0/res
+id.kakzaki.blue_thermal_printer-jetified-tracing-1.2.0-24 /Users/Saqlain/.gradle/caches/transforms-3/fc740ce8f988fd64f49c90401667f4c5/transformed/jetified-tracing-1.2.0/res
+id.kakzaki.blue_thermal_printer-main-25 /Users/Saqlain/.pub-cache/hosted/pub.dev/blue_thermal_printer-1.2.3/android/src/main/res
+id.kakzaki.blue_thermal_printer-release-26 /Users/Saqlain/.pub-cache/hosted/pub.dev/blue_thermal_printer-1.2.3/android/src/release/res
+id.kakzaki.blue_thermal_printer-pngs-27 /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/generated/res/pngs/release
+id.kakzaki.blue_thermal_printer-resValues-28 /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/generated/res/resValues/release
+id.kakzaki.blue_thermal_printer-rs-29 /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/generated/res/rs/release
+id.kakzaki.blue_thermal_printer-mergeReleaseResources-30 /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/incremental/release/mergeReleaseResources/merged.dir
+id.kakzaki.blue_thermal_printer-mergeReleaseResources-31 /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+id.kakzaki.blue_thermal_printer-merged_res-32 /Users/Saqlain/Desktop/Payment App/payment_app/build/blue_thermal_printer/intermediates/merged_res/release

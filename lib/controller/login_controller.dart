@@ -12,20 +12,18 @@ class LoginController extends ChangeNotifier {
   Future<LoginModel> getLoginData({
     required String username,
     required String password,
-    required String terminal,
   }) async {
     isloading = true;
     notifyListeners();
     final Map<String, dynamic> body = {
       "UserCode": username,
       "UserPassword": password,
-      "TerminalSerialNo": terminal,
       "SoftwareVersion": 1.0,
       "ActionType": "1"
     };
     final bodyString = jsonEncode(body);
     final response = await http.post(
-        Uri.parse('https://demokpservice.a2z.care/pay/ProcessPayment'),
+        Uri.parse('https://kpservice.a2z.care/pay/ProcessPayment'),
         headers: {
           'Content-Type': 'application/json',
           'Authorization': 'Bearer $token', // Set the content type to JSON

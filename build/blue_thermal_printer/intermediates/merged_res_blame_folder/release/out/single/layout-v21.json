@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "id.kakzaki.blue_thermal_printer-merged_res-31:/layout-v21/notification_template_icon_group.xml",
+        "source": "id.kakzaki.blue_thermal_printer-core-1.13.1-9:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "id.kakzaki.blue_thermal_printer-merged_res-31:/layout-v21/notification_template_custom_big.xml",
+        "source": "id.kakzaki.blue_thermal_printer-core-1.13.1-9:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "id.kakzaki.blue_thermal_printer-merged_res-31:/layout-v21/notification_action_tombstone.xml",
+        "source": "id.kakzaki.blue_thermal_printer-core-1.13.1-9:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "id.kakzaki.blue_thermal_printer-merged_res-31:/layout-v21/notification_action.xml",
+        "source": "id.kakzaki.blue_thermal_printer-core-1.13.1-9:/layout-v21/notification_action.xml"
+    }
+]

@@ -31,7 +31,7 @@ class _LoginScreenState extends State<LoginScreen> {
   final formKey = GlobalKey<FormState>();
   final usernamelController = TextEditingController();
   final passwordController = TextEditingController();
-  final terminalController = TextEditingController();
+
   // final notification = NotificationServices();
   bool isloading = false;
   @override
@@ -79,16 +79,6 @@ class _LoginScreenState extends State<LoginScreen> {
                       const SizedBox(
                         height: 20,
                       ),
-                      TextFieldWidget(
-                        validator: (value) {
-                          if (value!.isEmpty) {
-                            return "terminal ID cant be empty";
-                          }
-                          return null;
-                        },
-                        controller: terminalController,
-                        hint: 'Enter terminal ID',
-                      ),
                     ],
                   ),
                   const SizedBox(
@@ -113,9 +103,9 @@ class _LoginScreenState extends State<LoginScreen> {
                               await context
                                   .read<LoginController>()
                                   .getLoginData(
-                                      username: usernamelController.text,
-                                      password: passwordController.text,
-                                      terminal: terminalController.text);
+                                    username: usernamelController.text,
+                                    password: passwordController.text,
+                                  );
 
                               // ignore: use_build_context_synchronously
 
@@ -136,7 +126,12 @@ class _LoginScreenState extends State<LoginScreen> {
                                     'password', passwordController.text);
 
                                 await _saveDataToSharedPreferences(
-                                    'terminal', terminalController.text);
+                                    'terminal',
+                                    context
+                                        .read<LoginController>()
+                                        .feedBackModel!
+                                        .responseObject!
+                                        .terminalNo!);
                                 await _saveListDataToSharedPreferences(
                                     'productIds',
                                     context
@@ -162,8 +157,11 @@ class _LoginScreenState extends State<LoginScreen> {
                                         builder: (context) => HomeScreen(
                                               userCode:
                                                   usernamelController.text,
-                                              terminalSerialNo:
-                                                  terminalController.text,
+                                              terminalSerialNo: context
+                                                  .read<LoginController>()
+                                                  .feedBackModel!
+                                                  .responseObject!
+                                                  .terminalNo!,
                                               userPassword:
                                                   passwordController.text,
                                               ids: context

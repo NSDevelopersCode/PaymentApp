@@ -45,18 +45,21 @@ class LoginModel {
 class ResponseObject {
   bool? status;
   String? statusDetails;
+  String? terminalNo;
 
   ResponseObject({this.status, this.statusDetails});
 
   ResponseObject.fromJson(Map<String, dynamic> json) {
     status = json['Status'];
     statusDetails = json['StatusDetails'];
+    terminalNo = json['TerminalSerialNo'];
   }
 
   Map<String, dynamic> toJson() {
     return {
       'Status': status,
       'StatusDetails': statusDetails,
+      'TerminalSerialNo': terminalNo,
     };
   }
 }

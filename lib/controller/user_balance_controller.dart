@@ -28,7 +28,7 @@ class UserBalanceController extends ChangeNotifier {
     };
     final bodyString = jsonEncode(body);
     final response = await http.post(
-        Uri.parse('https://demokpservice.a2z.care/pay/ProcessPayment'),
+        Uri.parse('https://kpservice.a2z.care/pay/ProcessPayment'),
         headers: {
           'Content-Type': 'application/json',
           'Authorization': 'Bearer $token', // Set the content type to JSON

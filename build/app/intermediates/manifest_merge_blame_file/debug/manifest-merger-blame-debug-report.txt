@@ -102,7 +102,7 @@
 60-->[androidx.core:core:1.13.1] /Users/Saqlain/.gradle/caches/transforms-3/7b9cc716733896fdb33be34a758f3226/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 61        android:debuggable="true"
 62        android:icon="@mipmap/ic_launcher"
-63        android:label="payment_app" >
+63        android:label="A2Z Epay" >
 64        <activity
 65            android:name="com.example.payment_app.MainActivity"
 66            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"

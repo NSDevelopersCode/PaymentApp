@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "id.kakzaki.blue_thermal_printer-merged_res-31:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/Saqlain/.gradle/caches/transforms-3/6cdf8c63972596173b31ee693d079e0b/transformed/appcompat-1.4.2/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "id.kakzaki.blue_thermal_printer-mergeReleaseResources-29:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/Saqlain/.gradle/caches/transforms-3/6cdf8c63972596173b31ee693d079e0b/transformed/appcompat-1.4.2/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}
